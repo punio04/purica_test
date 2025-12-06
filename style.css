@@ -1028,15 +1028,16 @@ section.p-movie {
     right: 16px;
   }
 
+  .html5-video-player {
+    height: 114%;
+  }
+
+  .ytp-cued-thumbnail-overlay {
+    height: 114%;
+  }
+
   .ytp-cued-thumbnail-overlay-image {
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 420px;
-    position: absolute;
+    height: 114%;
   }
 
   .store-list {
