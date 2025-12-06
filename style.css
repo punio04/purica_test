@@ -1055,6 +1055,19 @@ section.p-movie {
   .ns-pagination {
     bottom: -90%;
   }
+
+  #ns-slider1 .left,
+  #ns-slider1 .right {
+    width: 24px;
+    height: 24px;
+    background: #909091;
+    border-radius: 50%;
+    top: 92%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 375px) {
