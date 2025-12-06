@@ -869,35 +869,6 @@ section.p-movie {
 
 
 
-@media screen and (max-width: 350px) {
-  .store-list {
-    width: 66%;
-    max-width: 364px;
-    margin: 0 auto;
-    padding-bottom: 80px;
-  }
-
-  .store-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #FFF6FB;
-    border: 3px solid #FF94B9;
-    border-radius: 6px;
-    padding: 12px 12px;
-    margin-bottom: 16px;
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: none;
-    box-shadow: 0 4px 4px rgb(230 230 230);
-    transition: 0.2s;
-  }
-
-  .store-item img {
-    width: 14px;
-    height: 14px;
-  }
-}
 
 
 
@@ -910,7 +881,7 @@ section.p-movie {
 
   .offer-frame {
     position: absolute;
-    top: 56.2%;
+    top: 57.2%;
     left: 0%;
     height: 100%;
     width: 100%;
@@ -926,7 +897,7 @@ section.p-movie {
   }
 
   #ns-slider1 {
-    height: 380px;
+    height: 430px;
     min-width: 60%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -935,11 +906,11 @@ section.p-movie {
 
   #ns-slider1 .left,
   #ns-slider1 .right {
-    width: 23px;
-    height: 23px;
+    width: 24px;
+    height: 24px;
     background: #909091;
     border-radius: 50%;
-    top: 92%;
+    top: 95%;
     transform: translateY(-50%);
     display: flex;
     align-items: center;
@@ -951,9 +922,9 @@ section.p-movie {
   }
 
   #ns-slider1 .left::before {
-    background-size: 14px 14px;
-    width: 14px;
-    height: 14px;
+    background-size: 13px 13px;
+    width: 13px;
+    height: 13px;
     display: block;
   }
 
@@ -962,15 +933,15 @@ section.p-movie {
   }
 
   #ns-slider1 .right::before {
-    background-size: 14px 14px;
-    width: 14px;
-    height: 14px;
+    background-size: 13px 13px;
+    width: 13px;
+    height: 13px;
     display: block;
   }
 
   .ns-pagination {
     position: absolute;
-    bottom: -90%;
+    bottom: -93%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -981,16 +952,8 @@ section.p-movie {
 
   .ns-pagination span {
     display: block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #e1e0e2;
-  }
-
-  .ns-pagination span {
-    display: block;
-    width: 12px;
-    height: 12px;
+    width: 17px;
+    height: 17px;
     border-radius: 50%;
     background: #e1e0e2;
   }
@@ -1065,13 +1028,6 @@ section.p-movie {
     right: 16px;
   }
 
-  .store-list {
-    width: 90%;
-    max-width: 364px;
-    margin: 0 auto;
-    padding-bottom: 30px;
-  }
-
   .ytp-cued-thumbnail-overlay-image {
     background-size: cover;
     -moz-background-size: cover;
@@ -1081,5 +1037,118 @@ section.p-movie {
     width: 100%;
     height: 420px;
     position: absolute;
+  }
+
+  .store-list {
+    width: 72%;
+    max-width: 364px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .offer-frame {
+    top: 56.2%;
+  }
+
+  .ns-pagination {
+    bottom: -90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .offer-frame {
+    top: 55.2%;
+  }
+
+  #ns-slider1 .left,
+  #ns-slider1 .right {
+    top: 90%;
+  }
+
+  .ns-pagination {
+    bottom: -88%;
+  }
+
+  .store-item {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .store-list {
+    width: 66%;
+    max-width: 364px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+
+  .store-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF6FB;
+    border: 3px solid #FF94B9;
+    border-radius: 6px;
+    padding: 12px 12px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 4px rgb(230 230 230);
+    transition: 0.2s;
+  }
+
+  .store-item img {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .offer-frame {
+    top: 51.2%;
+  }
+
+  #ns-slider1 .right {
+    right: 22%;
+  }
+
+  #ns-slider1 .left {
+    left: 22%;
+  }
+
+  .ns-pagination {
+    bottom: -83%;
+  }
+
+  .splide__arrow {
+    top: 96.5%;
+  }
+
+  .p-movieSlider__control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin-top: 25px;
+  }
+
+  .splide__arrow--next {
+    right: 0px;
+  }
+
+  .splide__arrow--prev {
+    left: 0px;
+  }
+
+  #ns-slider1 .left,
+  #ns-slider1 .right {
+    top: 85%;
+  }
+
+  .store-list {
+    padding-bottom: 30px;
   }
 }
