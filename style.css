@@ -1,20 +1,21 @@
-/*reset*/
 html,
 body {
   height: 100%;
   margin: 0;
 }
 
+body {
+  font-family: 'Rounded Mplus 1c', sans-serif;
+}
+
 picture {
   display: block;
 }
 
-/*base*/
 html {
   -webkit-overflow-scrolling: touch;
 }
 
-/*Base*/
 .llw {
   max-width: 640px;
   width: 100%;
@@ -33,7 +34,6 @@ html {
   position: relative;
 }
 
-
 .cta01__btn--01 {
   text-align: center;
   width: 91%;
@@ -47,32 +47,6 @@ html {
   opacity: 0.8;
 }
 
-/*Base*/
-
-.foot_bottom_llw {
-  background-color: #509d9b;
-  font-size: 19px;
-  color: #fff;
-  text-align: center;
-  height: 100% !important;
-  line-height: 1.6rem;
-  padding: 2.6% 0 3%;
-  letter-spacing: 0.1rem;
-}
-
-@media screen and (max-width: 640px) {
-  .foot_bottom_llw {
-    font-size: 2.96875vw;
-    height: 6.875vw;
-  }
-}
-
-.foot_bottom_llw p {
-  margin: 0;
-  font-family: "Noto Sans JP", sans-serif;
-}
-
-/*Base*/
 .llw {
   max-width: 640px;
   width: 100%;
@@ -100,68 +74,13 @@ html {
   justify-content: space-between;
 }
 
-/*# sourceMappingURL=base.css.map */
-.l-foot_access .l-inner {
-  text-align: center;
-  background-color: #fff;
-}
-
-.l-foot_access .c-text_area {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-@media (hover: hover) {
-  .l-foot_access .c-text_area .c-logo {
-    transition: 0.5s;
-  }
-}
-
-.l-foot_access .c-text_area .c-logo {
-  display: block;
-}
-
-.l-foot_access .c-map_area {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.l-foot_access .c-map_area iframe {
-  width: 100%;
-  height: 390px;
-}
-
 iframe {
   max-width: 100%;
-}
-
-@media (hover: hover) {
-  .l-foot_access .c-map_area a {
-    transition: 0.5s;
-  }
-}
-
-.l-foot_access .c-map_area a {
-  display: flex;
-  margin: 0 0 0 auto;
-  width: fit-content;
-  font-size: 14px;
-  align-items: center;
-  border-bottom: 1px solid #DDD;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-}
-
-
-.l-foot_access .c-text_area .c-text {
-  line-height: 1.6;
 }
 
 .c-text {
@@ -171,22 +90,6 @@ a {
   line-height: 2;
   letter-spacing: 0.028em;
   text-align: left;
-}
-
-.l-foot_access .c-sns_wrap .c-sns_list {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-@media (hover: hover) {
-  .l-foot_access .c-sns_wrap a {
-    transition: 0.5s;
-  }
-}
-
-.l-foot_access .c-sns_wrap a {
-  display: block !important;
 }
 
 a {
@@ -210,22 +113,6 @@ li {
   width: 260px;
 }
 
-.l-foot_access .c-sns_wrap .c-text {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1;
-  font-family: "Libre Bodoni", serif;
-  letter-spacing: 0.028em;
-  font-weight: 400;
-  color: #333;
-}
-
-.l-foot_access .c-sns_wrap .c-sns_list {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
 ul {
   box-sizing: border-box;
 }
@@ -238,10 +125,6 @@ ul {
   display: flex;
   width: 100%;
   justify-content: space-between;
-}
-
-.l-foot_access {
-  margin-bottom: 75px;
 }
 
 .btn-frame1 {
@@ -258,90 +141,6 @@ ul {
 
 .overlayItem.cta01__btn--01:hover {
   opacity: 0.8;
-}
-
-@media (hover: hover) {
-  .l-foot_access .c-sns_wrap a:hover {
-    opacity: 0.5;
-  }
-}
-
-@media (hover: hover) {
-  .l-foot_access .c-text_area .c-logo:hover {
-    opacity: 0.5;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .l-foot_access .l-inner {
-    display: block;
-    padding: 0px 16px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .l-foot_access .c-text_area {
-    margin: 0 auto 56px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .l-foot_access .c-text_area .c-logo {
-    max-width: 220px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .l-foot_access .c-map_area {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .l-foot_access .c-map_area iframe {
-    height: 200px;
-  }
-
-  .l-foot_access .c-text_area {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-
-  .l-foot_access .c-text_area .c-text {
-    margin-top: 40px;
-    line-height: 1.6;
-  }
-
-  .c-text {
-    color: #333;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2;
-    letter-spacing: 0.028em;
-  }
-
-  .c-sns_wrap {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  span.c-text {
-    margin: 0px !important;
-  }
-
-  .l-foot_access {
-    margin-bottom: 45px;
-  }
 }
 
 .show {
@@ -401,105 +200,6 @@ div#ns-slider1 {
   transform: translateY(1px);
 }
 
-
-/* -------------------------------------- */
-
-@media screen and (max-width: 640px) {
-
-  .slider,
-  .slider>div {
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    -moz-transition: transform 0.4s;
-    -o-transition: transform 0.4s;
-    -webkit-transition: transform 0.4s;
-    transition: transform 0.4s;
-  }
-}
-
-@media screen and (max-width: 430px) {
-
-  .slider,
-  .slider>div {
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    -moz-transition: transform 0.4s;
-    -o-transition: transform 0.4s;
-    -webkit-transition: transform 0.4s;
-    transition: transform 0.4s;
-  }
-
-  #ns-slider1 {
-    height: 110px;
-    min-width: 60%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-  }
-}
-
-
-
-
-@media screen and (max-width: 375px) {
-
-  .slider,
-  .slider>div {
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    -moz-transition: transform 0.4s;
-    -o-transition: transform 0.4s;
-    -webkit-transition: transform 0.4s;
-    transition: transform 0.4s;
-  }
-
-  #ns-slider1 {
-    height: 290px;
-    min-width: 60%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-
-  .slider,
-  .slider>div {
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    -moz-transition: transform 0.4s;
-    -o-transition: transform 0.4s;
-    -webkit-transition: transform 0.4s;
-    transition: transform 0.4s;
-  }
-
-  #ns-slider1 {
-    height: 164px;
-    min-width: 60%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-  }
-}
-
 .offer-frame2 {
   position: absolute;
   top: 6.7%;
@@ -525,55 +225,6 @@ div#ns-slider1 {
   align-items: center;
   justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .store-list {
   width: 90%;
@@ -611,12 +262,6 @@ div#ns-slider1 {
 
 .store-item span {
   color: #FF94B9;
-}
-
-
-
-body {
-  font-family: 'Rounded Mplus 1c', sans-serif;
 }
 
 
@@ -733,21 +378,15 @@ section.p-movie {
   width: 63%;
 }
 
-
-
-
-/* ▼ スライダーの位置指定 */
 #ns-slider1 {
   position: relative;
 }
-
 
 #ns-slider1 .left:hover,
 #ns-slider1 .right:hover {
   background: #747474;
 }
 
-/* 左右の位置 */
 #ns-slider1 .left {
   left: 30%;
 }
@@ -760,7 +399,6 @@ section.p-movie {
   transform: rotate(0deg);
 }
 
-/* ▼ 真ん中の丸（ページネーション）コンテナ */
 .ns-pagination {
   position: absolute;
   bottom: -93%;
@@ -772,7 +410,6 @@ section.p-movie {
   padding-top: 20px;
 }
 
-/* ▼ 丸（4つ） */
 .ns-pagination span {
   display: block;
   width: 16px;
@@ -786,30 +423,6 @@ section.p-movie {
   transform: scale(1.4);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ▼ 商品スライダーの矢印を動画と同じデザインにする */
 #ns-slider1 .left,
 #ns-slider1 .right {
   width: 30px;
@@ -823,7 +436,6 @@ section.p-movie {
   justify-content: center;
 }
 
-/* 左矢印のSVG */
 #ns-slider1 .left::before {
   content: "";
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M12.5 3.5L6 10l6.5 6.5" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/></svg>');
@@ -833,7 +445,6 @@ section.p-movie {
   display: block;
 }
 
-/* 右矢印のSVG */
 #ns-slider1 .right::before {
   content: "";
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M7.5 3.5L14 10l-6.5 6.5" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/></svg>');
@@ -843,39 +454,44 @@ section.p-movie {
   display: block;
 }
 
+@media screen and (max-width: 767px) {
+  .c-text {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.028em;
+  }
 
+  .c-sns_wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  span.c-text {
+    margin: 0px !important;
+  }
+}
 
+@media screen and (max-width: 640px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .slider,
+  .slider>div {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -moz-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    transition: transform 0.4s;
+  }
+}
 
 @media screen and (max-width: 550px) {
 
@@ -1092,6 +708,21 @@ section.p-movie {
 }
 
 @media screen and (max-width: 430px) {
+
+  .slider,
+  .slider>div {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -moz-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    transition: transform 0.4s;
+  }
+
   #ns-slider1 {
     height: 470px;
     min-width: 60%;
@@ -1168,20 +799,6 @@ section.p-movie {
   }
 }
 
-@media screen and (max-width: 412px) {
-  .splide__arrow--prev {
-    left: 9%;
-  }
-
-  .splide__arrow--next {
-    right: 9%;
-  }
-
-  .splide__arrow {
-    top: 97.5%;
-  }
-}
-
 @media screen and (max-width: 414px) {
   #ns-slider1 {
     height: 434px;
@@ -1209,6 +826,20 @@ section.p-movie {
 
   #ns-slider1 .left {
     left: 28%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .splide__arrow--prev {
+    left: 9%;
+  }
+
+  .splide__arrow--next {
+    right: 9%;
+  }
+
+  .splide__arrow {
+    top: 97.5%;
   }
 }
 
